@@ -1,102 +1,72 @@
-# Casos de prueba - Historia 1
-
----
+# Casos de prueba - Historia 1: Registro de usuario
 
 ## Caso de prueba 1
 
-**ID:** TC-001
+**ID del caso:** TC-001
 
-**Título:**
+**Título:** Registro exitoso de usuario
 
-Registro exitoso de usuario
-
-**Objetivo:**
-
-Validar que un usuario puede registrarse correctamente.
+**Objetivo:** Validar que un usuario pueda crear una cuenta con datos válidos.
 
 **Precondiciones:**
-
 - La aplicación está disponible.
-- El usuario no tiene una cuenta registrada.
+- El usuario no posee una cuenta registrada.
 
 **Datos de prueba:**
-
-Correo:
-usuario@test.com
-
-Contraseña:
-12345678
+- Correo: usuario@test.com
+- Contraseña: Password123
 
 **Pasos:**
-
 1. Abrir la aplicación.
-2. Seleccionar Registrarse.
-3. Ingresar correo.
-4. Ingresar contraseña.
-5. Presionar Crear cuenta.
+2. Seleccionar la opción "Registrarse".
+3. Ingresar el correo electrónico.
+4. Ingresar la contraseña.
+5. Presionar el botón "Crear cuenta".
 
 **Resultado esperado:**
-
-La cuenta es creada exitosamente.
+La cuenta se registra correctamente y el usuario recibe un mensaje de confirmación.
 
 **Resultado obtenido:**
-
 Pendiente.
 
 **Estado:**
-
 Pendiente.
 
 **Notas/Evidencias:**
-
 Pendiente.
 
 ---
 
 ## Caso de prueba 2
 
-**ID:** TC-002
+**ID del caso:** TC-002
 
-**Título:**
+**Título:** Registro con correo inválido
 
-Registro con correo inválido
-
-**Objetivo:**
-
-Validar que el sistema no permita registrar un correo inválido.
+**Objetivo:** Validar que el sistema rechace un correo con formato incorrecto.
 
 **Precondiciones:**
-
-La aplicación está disponible.
+- La aplicación está disponible.
 
 **Datos de prueba:**
-
-Correo:
-usuario
-
-Contraseña:
-12345678
+- Correo: usuario
+- Contraseña: Password123
 
 **Pasos:**
-
 1. Abrir la aplicación.
-2. Elegir Registrarse.
-3. Escribir un correo inválido.
-4. Escribir contraseña.
-5. Presionar Crear cuenta.
+2. Seleccionar "Registrarse".
+3. Ingresar un correo inválido.
+4. Ingresar una contraseña válida.
+5. Presionar "Crear cuenta".
 
 **Resultado esperado:**
-
-Se muestra un mensaje indicando que el correo es inválido.
+El sistema muestra un mensaje indicando que el correo es inválido y no crea la cuenta.
 
 **Resultado obtenido:**
-
 Pendiente.
 
 **Estado:**
-
 Pendiente.
 
 **Notas/Evidencias:**
-
 Pendiente.
